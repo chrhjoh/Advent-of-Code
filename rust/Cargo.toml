@@ -10,6 +10,10 @@ path = "src/bin/year2020_day2.rs"
 name = "year2020_day3"
 path = "src/bin/year2020_day3.rs"
 
+[[bin]]
+name = "year2020_day4"
+path = "src/bin/year2020_day4.rs"
+
 [package]
 name = "aocsuite"
 version = "0.1.0"
@@ -18,3 +22,6 @@ edition = "2021"
 [dependencies.clap]
 version = "4.5.4"
 features = [ "derive",]
+
+[dependencies]
+regex = "1"
