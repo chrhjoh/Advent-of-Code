@@ -13,7 +13,35 @@ fn exercise1(data: &str) -> i64 {
     return state.accumulator;
 }
 fn exercise2(data: &str) -> i64 {
-    return 0;
+    let lines: Vec<&str> = data.lines().collect();
+    let mut potential_swaps: HashSet<isize> = HashSet::new();
+    let mut state = ProgramState::new();
+    while !potential_swaps.contains(&state.index) {
+        potential_swaps.insert(state.index);
+        let (operation, value) = parse_instruction(lines[state.index as usize]);
+        state = do_instruction(operation, value, state)
+    }
+    for swap in potential_swaps.iter() {
+        let mut state = ProgramState::new();
+        let mut seen_instructions: HashSet<isize> = HashSet::new();
+        while !seen_instructions.contains(&state.index) {
+            if lines.len().eq(&usize::try_from(state.index).unwrap()) {
+                return state.accumulator;
+            }
+            seen_instructions.insert(state.index);
+            let (mut operation, value) = parse_instruction(lines[state.index as usize]);
+            if swap.eq(&state.index) {
+                operation = match operation {
+                    "nop" => "jmp",
+                    "jmp" => "nop",
+                    _ => operation,
+                }
+            }
+            state = do_instruction(operation, value, state)
+        }
+    }
+
+    return -1;
 }
 
 fn main() {
