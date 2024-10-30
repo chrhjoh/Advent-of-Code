@@ -46,6 +46,58 @@ path = "src/bin/year2020_day11.rs"
 name = "year2020_day12"
 path = "src/bin/year2020_day12.rs"
 
+[[bin]]
+name = "year2020_day13"
+path = "src/bin/year2020_day13.rs"
+
+[[bin]]
+name = "year2020_day14"
+path = "src/bin/year2020_day14.rs"
+
+[[bin]]
+name = "year2020_day15"
+path = "src/bin/year2020_day15.rs"
+
+[[bin]]
+name = "year2020_day16"
+path = "src/bin/year2020_day16.rs"
+
+[[bin]]
+name = "year2020_day17"
+path = "src/bin/year2020_day17.rs"
+
+[[bin]]
+name = "year2020_day18"
+path = "src/bin/year2020_day18.rs"
+
+[[bin]]
+name = "year2020_day19"
+path = "src/bin/year2020_day19.rs"
+
+[[bin]]
+name = "year2020_day20"
+path = "src/bin/year2020_day20.rs"
+
+[[bin]]
+name = "year2020_day21"
+path = "src/bin/year2020_day21.rs"
+
+[[bin]]
+name = "year2020_day22"
+path = "src/bin/year2020_day22.rs"
+
+[[bin]]
+name = "year2020_day23"
+path = "src/bin/year2020_day23.rs"
+
+[[bin]]
+name = "year2020_day24"
+path = "src/bin/year2020_day24.rs"
+
+[[bin]]
+name = "year2020_day25"
+path = "src/bin/year2020_day25.rs"
+
 [package]
 name = "aocsuite"
 version = "0.1.0"
