@@ -1,0 +1,62 @@
+{
+  "nodes": {
+    "aocsuite": {
+      "inputs": {
+        "nixpkgs": "nixpkgs"
+      },
+      "locked": {
+        "lastModified": 1731515163,
+        "narHash": "sha256-fxuWiBG4hCfVmwNnMU41keg20tPUh0Nx3NDCOihqWI8=",
+        "owner": "chrhjoh",
+        "repo": "aocsuite",
+        "rev": "961e58e18e5b5c5b6f8a1410f299897250c5d086",
+        "type": "github"
+      },
+      "original": {
+        "owner": "chrhjoh",
+        "repo": "aocsuite",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1731245184,
+        "narHash": "sha256-vmLS8+x+gHRv1yzj3n+GTAEObwmhxmkkukB2DwtJRdU=",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "aebe249544837ce42588aa4b2e7972222ba12e8f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixpkgs-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "nixpkgs_2": {
+      "locked": {
+        "lastModified": 1731245184,
+        "narHash": "sha256-vmLS8+x+gHRv1yzj3n+GTAEObwmhxmkkukB2DwtJRdU=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "aebe249544837ce42588aa4b2e7972222ba12e8f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixpkgs-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "aocsuite": "aocsuite",
+        "nixpkgs": "nixpkgs_2"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}

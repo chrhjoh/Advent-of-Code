@@ -187,3 +187,5 @@ cython_debug/
 
 data/
 aocsuite.json
+.envrc
+.direnv/
