@@ -5,11 +5,11 @@
         "nixpkgs": "nixpkgs"
       },
       "locked": {
-        "lastModified": 1731515163,
-        "narHash": "sha256-fxuWiBG4hCfVmwNnMU41keg20tPUh0Nx3NDCOihqWI8=",
+        "lastModified": 1733084271,
+        "narHash": "sha256-VdyI9G5xzdzcTa5SLFyGL5SKx7Fxp/PZPclzX3tj2LQ=",
         "owner": "chrhjoh",
         "repo": "aocsuite",
-        "rev": "961e58e18e5b5c5b6f8a1410f299897250c5d086",
+        "rev": "b9349fa32bb6eafbd1a44383dd36a5f79f46bab2",
         "type": "github"
       },
       "original": {
