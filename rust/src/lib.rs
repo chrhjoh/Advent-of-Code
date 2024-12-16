@@ -64,4 +64,7 @@ pub mod utils {
 
         println!("Answer to exercise {:?}: {}", args.exercise, answer);
     }
+
+    pub mod grid;
+    pub mod point;
 }
