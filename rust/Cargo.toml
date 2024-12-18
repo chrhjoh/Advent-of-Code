@@ -170,6 +170,10 @@ path = "src/bin/year2024_day16.rs"
 name = "year2024_day17"
 path = "src/bin/year2024_day17.rs"
 
+[[bin]]
+name = "year2024_day18"
+path = "src/bin/year2024_day18.rs"
+
 [package]
 name = "aocsuite"
 version = "0.1.0"
